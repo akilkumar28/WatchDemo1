@@ -25,6 +25,9 @@
                                 </button>
                                 <button width="0.5" alignment="left" title="Idea 2" id="4N3-xG-2J7">
                                     <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <segue destination="8nb-p8-xvi" kind="push" id="Ttz-LS-DnA"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
@@ -32,9 +35,15 @@
                             <items>
                                 <button width="0.5" alignment="left" title="Idea 3" id="dNx-Qu-xRv">
                                     <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <segue destination="rGm-Ku-iBh" kind="push" id="V6f-wK-XRM"/>
+                                    </connections>
                                 </button>
                                 <button width="0.5" alignment="left" title="Idea 4" id="oST-Hs-5ly">
                                     <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <segue destination="YT3-PM-Va8" kind="push" id="4hW-Le-eW9"/>
+                                    </connections>
                                 </button>
                             </items>
                         </group>
@@ -53,6 +62,39 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="324" y="31"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="zH8-kY-l4q">
+            <objects>
+                <controller id="rGm-Ku-iBh">
+                    <items>
+                        <imageView width="1" height="1" alignment="left" image="baboon" contentMode="scaleAspectFill" id="0Ne-xi-bkX"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-86" y="381"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="8uJ-iT-FqE">
+            <objects>
+                <controller id="8nb-p8-xvi">
+                    <items>
+                        <imageView width="1" height="1" alignment="left" image="boat" id="nFS-gL-rtP"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="210" y="381"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="PyN-g8-ffA">
+            <objects>
+                <controller id="YT3-PM-Va8">
+                    <items>
+                        <imageView width="1" height="1" alignment="left" image="arctichare" contentMode="redraw" id="uCA-zB-tpc"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="195" y="-282"/>
         </scene>
     </scenes>
 </document>
