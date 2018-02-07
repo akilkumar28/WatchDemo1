@@ -15,6 +15,13 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchAppDemo1" customModuleProvider="target">
                     <items>
                         <label alignment="center" text="Gift Ideas" textAlignment="center" id="ONK-Ja-LIg"/>
+                        <button width="1" alignment="left" title="All images" id="iRR-9a-Sad">
+                            <color key="titleColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="79G-jd-aZK" kind="push" id="DDP-yh-U0J"/>
+                            </connections>
+                        </button>
                         <group width="1" alignment="left" verticalAlignment="center" id="Lcz-Xe-51w">
                             <items>
                                 <button width="0.5" alignment="left" title="Idea 1" id="7hx-LP-l7J">
@@ -84,6 +91,32 @@
                 </controller>
             </objects>
             <point key="canvasLocation" x="210" y="381"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="wy2-BY-hJL">
+            <objects>
+                <controller id="79G-jd-aZK">
+                    <items>
+                        <group width="1" height="1" alignment="left" layout="vertical" id="3KF-G9-kDt">
+                            <items>
+                                <group width="1" height="0.5" alignment="center" spacing="5" id="wG1-2E-L5C">
+                                    <items>
+                                        <imageView width="0.5" height="1" alignment="left" image="airplane" id="fJD-Mi-6lX"/>
+                                        <imageView width="0.5" height="1" alignment="left" image="arctichare" id="9R3-5o-LxF"/>
+                                    </items>
+                                </group>
+                                <group width="1" height="0.5" alignment="center" spacing="5" id="lXs-WZ-H2D">
+                                    <items>
+                                        <imageView width="0.5" height="1" alignment="left" image="baboon" id="ruW-qV-1ov"/>
+                                        <imageView width="0.5" height="1" alignment="left" image="boat" id="rMh-2L-xlT"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="467" y="316"/>
         </scene>
         <!--Interface Controller-->
         <scene sceneID="PyN-g8-ffA">
